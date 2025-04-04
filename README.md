@@ -1,70 +1,62 @@
-# Student Scheduling System
+Student Scheduling System using JSP & MySQL | Web-Based College Management
+📌 Project Overview
+The Student Scheduling System is a web-based application developed using JSP, Servlets, and MySQL. This system helps colleges and universities efficiently manage exam timetables, student attendance, college notices, and lecture schedules.
 
-## Project Overview
+🔹 Administrators can add, update, and manage schedules.
+🔹 Students can log in to view their schedules, attendance records, and notices.
 
-The **Student Scheduling System** is a web-based application designed to manage student schedules efficiently. It allows administrators to update and manage exam timetables, student attendance, college notices, and lecture schedules. Students can log in to view their schedules and relevant notices.
+🎯 Key Features
+🔵 Admin Features:
+✔ Exam Timetable Management – Add, update, and delete exam schedules
+✔ Student Attendance Tracking – Maintain and manage student attendance records
+✔ College Notice Board – Publish and manage important college announcements
+✔ Lecture Scheduling System – Organize and manage subject-wise lecture schedules
+✔ Reports & Analytics – View student-wise and subject-wise reports
+✔ Role-Based Access Control – Secure system with admin and student roles
 
-## Features
+🔵 Student Features:
+✔ View Exam Timetables – Check subject-wise exam dates and venues
+✔ Attendance Tracking – View attendance records for all subjects
+✔ Read College Notices – Stay updated with official announcements
+✔ Lecture Schedule Management – Check daily and weekly subject-wise schedules
 
-### **Admin Features:**
+🔧 Technologies Used
+🚀 Frontend: JSP, HTML5, CSS3, JavaScript
+🚀 Backend: JSP, Servlets, MySQL Database (SQL Workbench)
+🚀 Database Connection: JDBC (Java Database Connectivity)
+🚀 Development Environment: Eclipse IDE with Tomcat Server
 
-- Manage exam timetables (Add, Update, Delete)
-- Manage student attendance
-- Publish college notices
-- Manage lecture schedules (subject-wise)
-- View reports (student-wise, subject-wise, etc.)
-- Role-based access control
+🗃 Database Schema
+Tables in MySQL Database:
+📌 users (id, name, email, password, role)
+📌 exam_timetable (id, subject, date, time, venue)
+📌 attendance (id, student_id, subject, status, date)
+📌 notices (id, title, description, date_posted)
+📌 lecture_schedule (id, subject, faculty, time, day)
 
-### **Student Features:**
+🔍 Installation Guide
+💻 Step 1: Install Eclipse IDE and SQL Workbench
+💻 Step 2: Import the project into Eclipse
+💻 Step 3: Create the MySQL database and tables using the provided SQL script
+💻 Step 4: Configure the database connection in DBConnection.java
+💻 Step 5: Deploy the project on Apache Tomcat Server
+💻 Step 6: Access the system at http://localhost:8080/StudentSchedulingSystem
 
-- View exam timetables
-- Check attendance records
-- Read college notices
-- View subject-wise lecture timings
+📌 Usage Instructions
+👨‍💻 Admin Login: Use admin credentials to manage schedules, attendance, and notices.
+👨‍🎓 Student Login: View exam schedules, attendance records, and college notices.
 
-## Technologies Used
+🚀 Future Enhancements
+✅ Implement an automated notification system for schedule updates
+✅ Add a mobile-friendly UI for better accessibility
+✅ Generate PDF reports for student attendance and timetables
 
-- **Frontend:** JSP, HTML, CSS, JavaScript
-- **Backend:** JSP, Servlets, MySQL (SQL Workbench)
-- **Database Connection:** JDBC
-- **Development Environment:** Eclipse IDE
+📩 Contact & Support
+For any queries or support, contact Aliya Sheikh at [Sheikhaliya986@gmail.com].
 
-## Database Schema
+🔗 GitHub Repository: [Add your project link here]
+🔗 Live Demo (if available): [Add demo link here]
 
-### **Tables:**
-
-1. **users** (id, name, email, password, role)
-2. **exam\_timetable** (id, subject, date, time, venue)
-3. **attendance** (id, student\_id, subject, status, date)
-4. **notices** (id, title, description, date\_posted)
-5. **lecture\_schedule** (id, subject, faculty, time, day)
-
-## Installation Guide
-
-1. Install **Eclipse IDE** and **SQL Workbench**.
-2. Import the project into **Eclipse**.
-3. Create the database and tables using the provided SQL script.
-4. Configure the database connection in `DBConnection.java`.
-5. Deploy the project on **Tomcat Server**.
-6. Access the system using the login page.
-
-## Usage Instructions
-
-- **Admin Login:** Use provided credentials to manage schedules.
-- **Student Login:** View schedules, notices, and attendance records.
-
-## Future Enhancements
-
-- Implement a notification system for schedule updates.
-- Add a mobile-friendly interface.
-- Generate downloadable reports in PDF format.
-
-## Contact
-
-For further assistance, contact the project administrator at [Sheikhaliya986@gmail.com](mailto\:Sheikhaliya986@gmail.com)
-
----
-
-**Developed By:** [Aliya Sheikh]\
-**Date:** [1/2/2025]
+📅 Developed By: Aliya Sheikh
+📅 Date: 1st February 2025
 
